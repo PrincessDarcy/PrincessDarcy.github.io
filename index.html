@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Case 1 Employee Editor</title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="icon" href="data:;base64, iVBORw0KGgo=" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>                
+    <div class="modal fade text-center" data-backdrop="static" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">                   
+                    <h1>Calculator</h1>
+                </div>
+                <div class="modal-body">
+                    <div style="top:5%;padding:5%;">
+                        <div class="panel panel-default">                           
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="text-right col-xs-3">Total:
+                                        <input id="totaltext" name="totaltext" type="text" />
+                                    </div>
+                                    <div class="text-right col-xs-3">Attribute:
+                                        <input type="number" min="0" max="10" step="1" value="0" id="att">
+                                    </div>
+                                    <div class="text-right col-xs-3">Move Damage:
+                                        <input type="number" min="0" max="10" step="1" value="0"id="dmg">
+                                    </div>
+                                     <div class="text-right col-xs-3">Successes after hit:
+                                        <input type="number" min="0" max="10" step="1" value="0"id="succ">
+                                         <p>--------------------------------------------</p>
+                                    </div>
+                                    <div class="text-right col-xs-3">
+                                        <input type="checkbox" name="super" value="super"id="se">Super Effective? ||
+                                         <input type="checkbox" name="superx2" value="superx2"id="se2">Double Effective?(Check both)
+                                    </div>
+                                     <div class="text-right col-xs-3">
+                                      <p>--------------------------------------------</p>
+                                     </div>   
+                                     <div class="text-right col-xs-3">
+                                        <input type="checkbox" name="noteff" value="noteff" id="ne">Not Effective? ||
+                                          <input type="checkbox" name="noteffx2" value="noteffx2"id="ne2">Double Not Effective?(Check both)
+                                    </div>
+                                     <div class="text-right col-xs-3">
+                                       <p>--------------------------------------------</p>
+                                     </div>   
+                                     <div class="text-right col-xs-3">
+                                        <input type="checkbox" name="crit" value="crit"id="crit">Crit? ||
+                                          <input type="checkbox" name="stab" value="stab"id="stab">STAB? ||
+                                         <input type="checkbox" name="adapt" value="adapt"id="adapt">Adaptability? 
+                                         <p>--------------------------------------------</p>
+                                    </div>    
+                                    <div class="text-right col-xs-3">Stat Buff/Debuff:
+                                        <input type="number" min="-10" max="10" step="1" value="0"id="stat">
+                                    </div>      
+                                    <div class="text-right col-xs-3">Enemy Vitality:
+                                        <input type="number" min="0" max="10" step="1" value="0"id="vit">
+                                    </div>                     
+                            </div>
+                            <div class="panel-footer">
+                                 
+                                <button type="button" value="Calculate" id="ButtonAction">Calculate</button>                                                         
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+        </div>     
+     <script src="nnaaa.js"></script>
+</body>
+</html>
