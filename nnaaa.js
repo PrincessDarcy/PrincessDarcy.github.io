@@ -1,6 +1,6 @@
 function calculate(){
 	var total = 0;
-total = total + parseInt(document.getElementById('att').value)+parseInt(document.getElementById('dmg').value)+parseInt(document.getElementById('succ').value)+parseInt(document.getElementById('stat').value)-parseInt(document.getElementById('vit').value);
+total = total + parseInt(document.getElementById('att').value)+parseInt(document.getElementById('dmg').value)+parseInt(document.getElementById('stat').value)-parseInt(document.getElementById('vit').value);
 if(document.getElementById('se').checked == true){
 	total = total+1;
 }
