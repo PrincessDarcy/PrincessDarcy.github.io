@@ -14,7 +14,7 @@ if(document.getElementById('ne2').checked == true){
 	total = total-1;
 }
 if(document.getElementById('crit').checked == true){
-	total = total+1;
+	total = total+2;
 }
 if(document.getElementById('stab').checked == true){
 	total = total+1;
